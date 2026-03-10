@@ -1,0 +1,168 @@
+body {
+  font-family: "Plus Jakarta Sans", sans-serif !important;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.container {
+  flex: 1;
+  margin: 0;
+}
+
+.navbar {
+   height: 5rem; 
+   background-color: white ;
+}
+
+.fa-compass{
+    color: #fe424d ;
+    font-size: 2rem;
+}
+
+.nav-link {
+    color:#222222 !important ;
+}
+
+/* 
+footer  */
+
+
+/* .f-info-links a {
+    text-decoration:none !important ;
+    color: #222222;
+
+}
+
+.f-info-links a:hover {
+    text-decoration: underline !important;
+    
+
+}
+
+.f-info-links {
+    width: 100%;
+}
+
+.f-links-socials {
+    width: 100%;
+}
+
+.f-info {
+    height: 8rem;
+  display: flex;  
+  background-color:#ebebeb ;
+  flex: wrap;
+  justify-content: center;
+  align-items: space-evenly;      
+} */
+
+
+footer {
+    background-color: #f2f2f2;
+    padding: 1.5rem 0;
+    margin-top: 2rem;
+    text-align: center;
+  }
+  
+  .f-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.75rem;
+    font-size: 0.9rem;
+    color: #222222;
+  }
+  
+  .f-info-socials i {
+    margin: 0 0.5rem;
+    font-size: 1.4rem;
+    cursor: pointer;
+  }
+  
+  .f-info-links {
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  .f-info-links a {
+    text-decoration: none;
+    color: #222222;
+  }
+  
+  .f-info-links a:hover {
+    text-decoration: underline;
+  }
+  
+
+  .listing-card {
+    border : none !important;
+    margin-bottom: 2rem;
+  }
+
+  .card-img-top {
+    border-radius: 1rem !important;
+    width: 100%;
+    object-fit: cover !important;
+  }
+
+  .card-body {
+    padding: 400 !important;
+  }
+
+  .card-text {
+    font-weight: 400 !important;
+  }
+
+  .listing-link {
+    text-decoration: none;
+  }
+
+  /* Card Effect */
+
+  .card-img-overlay {
+    opacity: 0;
+  }
+  .card-img-overlay:hover {
+    opacity: 0.2;
+    background-color: white;
+
+  }
+
+  /* New Page */
+
+  
+  .add-btn {
+    background-color: #fe424d !important;
+    border: none !important;
+  }
+
+
+  /* Edit Page */
+
+  .edit-btn {
+    background-color: #fe424d !important;
+    border: none !important;
+  }
+
+  /* Show Page */
+
+  .show-img{
+    height: 400px;
+    object-fit: cover;
+    border-radius: 1re !important;
+  }
+
+  .btns{
+    display:flex;
+  }
+  .show-card {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+
+  /* map */
+  #map { 
+    height: 400px;
+    width: 80vh;
+    }
